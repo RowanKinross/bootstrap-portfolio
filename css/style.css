@@ -16,13 +16,13 @@
   color: var(--dark);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-      /*just for visualisation whilst developing:
-      border: 1px solid plum; */
+      /*just for visualisation whilst developing:*/
+      border: 1px solid plum; 
 }
 
 
 
-/* Heading and Navigation - header flex box contains 2 items; a header and a nav bar */
+/* Heading and Navigation - header flex box contains 2 items; a header and a nav bar 
 h1 {
   font-size: 26pt;
 }
@@ -41,7 +41,7 @@ header {
 
 
 
-/* Navigation bar -nav flex box contains 4 directory items: 'About Me', 'Work', 'Contact Me' and 'CV' */
+/* Navigation bar -nav flex box contains 4 directory items: 'About Me', 'Work', 'Contact Me' and 'CV' 
 .navFlex {
     padding: 10px 40px 10px 10px;
     margin: 10px;
@@ -59,7 +59,7 @@ header {
 
 
 
-/* hero image - contains decorative image (illustration of a branch) and a 'cool subtitle' */
+/* hero image - contains decorative image (illustration of a branch) and a 'cool subtitle' 
 .heroImageContainer {
   position: relative;
   text-align: center;
@@ -80,7 +80,7 @@ header {
 
 
 
-/* styles affecting the main body generally */
+/* styles affecting the main body generally 
 main {
   background-color: var(--light);
 }
@@ -88,7 +88,7 @@ main {
 
 
 /* main grid - contains 3 headings: 'About Me', 'Work' and 'Contact Me', and 3 sections: paragraph about me, a grid of examples of work and a box containing links for contacting me */
-h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
+h2, h3, h4, h5 /*'cool subtitle' and grid headings {
   font-size:20pt;
 }
 #mainGrid {
@@ -103,7 +103,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
 .mainGridItem {
   margin: 20px;
 }
-/* main grid items listed */
+/* main grid items listed 
 #about, #work, #contactMe {
   border: 2px var(--dark);
   border-style: none solid none none;
@@ -134,7 +134,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
 
 
 
-/* contact me flex box - Email, LinkedIn, GitHub, Insta */
+/* contact me flex box - Email, LinkedIn, GitHub, Insta 
 .contactMeFlex {
   display: flex;
   justify-content: space-around;
@@ -144,7 +144,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
 
 
 
-/* work grid - 5 items: Code Refactor, pre-work study guide, taco nights, applause meter and student bio */
+/* work grid - 5 items: Code Refactor, pre-work study guide, taco nights, applause meter and student bio
 #workGrid {
   display: grid;
   grid-template-rows: 2fr 1fr 1fr;
@@ -197,7 +197,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
   background-position-y: 40%;
   background-size: 140%;
 }
-/* work grid hovers - using box shadow & linear gradient */
+/* work grid hovers - using box shadow & linear gradient 
 .workGridItem:hover {
   box-shadow: 0px 0px 15px var(--green)
 }
@@ -216,7 +216,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
 #workItem5:hover {
   background-image: linear-gradient(0deg, var(--orangeOpaque), var(--orangeOpaque)), url("../images/student-bio.png");
 }
-/* heading and detailing as titles to the work links/images */
+/* heading and detailing as titles to the work links/images 
 .heading {
   padding: 15px;
   background-color: var(--greenOpaque);
@@ -231,9 +231,9 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
 
 
 
-/* breakpoint for mobile (480px max) */
+/* breakpoint for mobile (480px max) 
 @media screen and (max-width: 480px) {
-  /*switching both grids to columns */
+  /*switching both grids to columns 
   #workGrid {
     grid-template-rows: 150px 150px 150px 150px 150px;
     grid-template-columns: 1fr;
@@ -258,7 +258,7 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
     "contactMeFlex";
     justify-content: center;
   }
-  /* altering borders of headers, removing line breaks and switching the flow of profile image with 'About Me' Header */
+  /* altering borders of headers, removing line breaks and switching the flow of profile image with 'About Me' Header 
   #about, #work, #contactMe {
     border-style: none none solid none;
     margin: 5px;
@@ -280,4 +280,4 @@ h2, h3, h4, h5 /*'cool subtitle' and grid headings*/ {
     flex-direction: column-reverse;
     justify-content: end;
   }
-}
+} */
