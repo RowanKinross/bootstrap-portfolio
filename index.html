@@ -5,18 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- reset css -->
   <link rel="stylesheet" href="./css/reset.css" />
+<!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   <title>Rowan Kinross // Web Developer</title>
   
-  <!-- unlinked whilst I tinker with bootstrap: -->
-    <link rel="stylesheet" href="./css/style.css" />
+<!-- personalised css -->
+<link rel="stylesheet" href="./css/style.css" />
    
 </head>
 
 <body>
  <header>
-  <!-- nav bar bootstrap code -->
+<!-- nav bar bootstrap code -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Rowan Kinross</a>
@@ -54,7 +57,31 @@
  </header>
 
 <main>
-<!-- hero -->
+<!-- hero jumbotron -->
+<div id="heroImage">
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <div class="container py-5">
+      <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
+        <use xlink:href="#profileImage"/>
+      </svg>
+      <h1 class="text-body-emphasis">Rowan Kinross // Web Developer</h1>
+      <p class="col-lg-8 mx-auto fs-5 text-muted">
+        This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+      </p>
+      <!--Not sure yet if I want these features:
+      <div class="d-inline-flex gap-2 mb-5">
+        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+          Call to action
+          <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"/></svg>
+        </button>
+        <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+          Secondary link
+        </button>
+      </div>
+      -->
+    </div>
+  </div>
+</div>
 
 </main>
   
