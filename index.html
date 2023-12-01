@@ -38,6 +38,10 @@
                 About Me
               </a>
             </li>
+              <a class="nav-link active" aria-current="page" href="#About">
+                Skills
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#Work">
                 Work
@@ -56,13 +60,15 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Dropdown
+                Useful Resources
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">w3schools</a></li>
+                <li><a class="dropdown-item" href="#">GitHub</a></li>
+                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else</a></li>
+                <li><a class="dropdown-item" href="#">CSS Diner</a></li>
+                <li><a class="dropdown-item" href="#">Flexbox Froggy</a></li>
               </ul>
             </li>
           </ul>
@@ -72,7 +78,7 @@
   </header>
 
   <main>
-  <!-- hero jumbotron -->
+  <!-- hero jumbotron - About Me -->
     <div id="heroImage">
       <div class="p-5 text-center bg-body-tertiary rounded-3">
         <div class="container py-5">
@@ -98,22 +104,73 @@
         </div>
       </div>
     </div>
-
+  <!-- Skills -->
+  <h2>Skills</h2>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- skill 1 - html -->
+      <div class="card col-sm-12 col-md-2 col-lg-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">html</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- skill 2 - CSS -->
+      <div class="card col-sm-12 col-md-2 col-lg-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- skill 3 - Bootstrap -->
+      <div class="card col-sm-12 col-md-2 col-lg-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bootstrap</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- skill 4 - JavaScript -->
+      <div class="card col-sm-12 col-md-2 col-lg-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <!-- skill 5 - JavaScript -->
+      <div class="card col-sm-12 col-md-2 col-lg-2" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
   <!-- Work Grid -->
       <!-- Cards -->
       <div class="container-fluid">
         <div class="row">
-          <!-- Card 1 -->
+          <!-- header -->
           <h3 class="cardContainer col-sm-12 col-md-4 col-lg-4">
             Work 
           </h3>
+          <!-- Card 1 -->
           <div class="cardContainer col-sm-12 col-md-8 col-lg-8">
-            <div class="card">
-              <img src="./images/horiseon-deployed-page.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./images/horiseon-deployed-page.jpg" alt="Card image">
+              <div class="card-img-overlay">
                 <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text">html, CSS</p>
               </div>
             </div>
           </div>
@@ -124,26 +181,24 @@
           </div>
           <!-- Card 2 -->
           <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <img src="./images/horiseon-deployed-page.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./images/horiseon-deployed-page.jpg" alt="Card image">
+              <div class="card-img-overlay">
                 <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text">html, CSS</p>
               </div>
-            </div> 
+            </div>
           </div>
           <!-- End card 2-->
           <!-- Card 3 -->
           <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <img src="./images/horiseon-deployed-page.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./images/horiseon-deployed-page.jpg" alt="Card image">
+              <div class="card-img-overlay">
                 <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text">html, CSS</p>
               </div>
-            </div> 
+            </div>
           </div>
           <!-- End card 3-->
         </div> 
@@ -152,26 +207,24 @@
           </div>
           <!-- Card 4 -->
           <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <img src="./images/horiseon-deployed-page.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./images/horiseon-deployed-page.jpg" alt="Card image">
+              <div class="card-img-overlay">
                 <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text">html, CSS</p>
               </div>
-            </div> 
+            </div>
           </div>
           <!-- End card 4-->
           <!-- Card 5 -->
           <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-            <div class="card">
-              <img src="./images/horiseon-deployed-page.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="./images/horiseon-deployed-page.jpg" alt="Card image">
+              <div class="card-img-overlay">
                 <h5 class="card-title">Horiseon Code Refactor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text">html, CSS</p>
               </div>
-            </div> 
+            </div>
           </div>
           <!-- End card 5-->
         </div>        
