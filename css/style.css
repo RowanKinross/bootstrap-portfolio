@@ -7,21 +7,48 @@
   --lightOpaque: rgba(	250,	245,	228, 0.5);
   --green: #2b786c;
   --dark: #004445;
-  --greenOpaque: rgba(43, 120, 108, 0.85)
+  --greenOpaque: rgba(43, 120, 108, 0.85);
 }
 *  {
       /*just for visualisation whilst developing:
       border: 1px solid plum;*/
 }
 
-#profileImage2 {
-  width: 60%;
-  border-radius: 100%;
+/* hero jumbotron */
+#heroImage {
+  background-image: url(../images/rowan-branch.png);
+  background-size: 120%;
+}
+#heroText {
+  border: 2px solid var(--orange);
 }
 
+
+/* skills section */
+.skillCard {
+  border: 0;
+}
+#html, #css, #bootstrapIcon, #jsIcon {
+  width: 40%;
+}
+
+
+/*work Grid */
+#workGrid {
+  background-color: var(--dark);
+}
 #imageCard1, #imageCard2, #imageCard3, #imageCard4,
 #imageCard5 {
   object-fit: cover;
   object-position: 0 20%;
   max-height: 300px;
+  opacity: 0.7;
+}
+
+/*Contact me*/
+#profileImage2 {
+  width: 60%;
+}
+.contactIcon {
+  width: 20%;
 }
