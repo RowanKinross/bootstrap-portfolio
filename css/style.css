@@ -9,9 +9,6 @@
   --dark: #004445;
   --greenOpaque: rgba(43, 120, 108, 0.85);
 }
-* a{
-  
-}
 
 /* nav */
 #Skills, #workGrid, #About {
@@ -66,5 +63,7 @@ h6 {
 }
 a {
   color: var(--orange);
-  text-decoration: none;
+}
+a:hover {
+
 }
