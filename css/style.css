@@ -13,6 +13,10 @@
       /*just for visualisation whilst developing:
       border: 1px solid plum;*/
 }
+/* nav */
+#Skills, #workGrid, #About {
+  scroll-margin-top: 50px;
+}
 
 /* hero jumbotron */
 #heroImage {
