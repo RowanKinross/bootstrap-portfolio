@@ -25,17 +25,19 @@
 }
 
 
-/* skills section */
+/* Skills */
 .skillCard {
   border: 0;
 }
 #html, #css, #bootstrapIcon, #jsIcon {
   width: 40%;
 }
+.skillCardButton:hover {
+  box-shadow: 0px 10px 20px 5px var(--greenOpaque);
+}
 
 
-
-/*work Grid */
+/*Work */
 #workGrid {
   background-color: var(--dark);
 }
@@ -48,10 +50,18 @@
 }
 
 
-/*Contact me*/
+/*About Me*/
 #profileImage2 {
   width: 60%;
 }
+#CV:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+
+
+/* Contact Me */
 .contactIcon {
  max-width: 30px;
 }
@@ -63,7 +73,4 @@ h6 {
 }
 a {
   color: var(--orange);
-}
-a:hover {
-
 }
