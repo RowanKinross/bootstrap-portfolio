@@ -11,13 +11,13 @@ https://rowankinross.github.io/bootstrap-portfolio/
 ## Visuals
 The following animation shows the appearance, usage and user interface of the application:
 
-![portfolio demo](./images/responsive-portfolio-page-gif.gif)
+![portfolio demo](./images/bootstrap-portfolio-deployed.gif)
 
 ## Installation
 n/a
 
 ## Usage
-The title shows the name of the student whose portfolio it is. The header bar features links which can be used to navigate the sections within the page, including an 'About Me' section, a previous work section and a section with modes of contacting the student. Navigating to each section, the sections are expanded upon with content, visual aids and links. The web application has been adapted to be used at different viewport scales, from monitors & laptops, to tablets, to mobile phones.
+The title shows the name of the student whose portfolio it is. The navigation bar features links which can be used to navigate the sections within the page, including a skills section, an 'About Me' section, a previous work section, a useful resources drop-down and a section with modes of contacting the student. Navigating to each section, the sections are expanded upon with content, visual aids and links.
 
 ## Contributing
 As this is a personal project, designed to challenge and test my skills, I am not currently looking for contributors. However, there may be a opening for this in the future.
