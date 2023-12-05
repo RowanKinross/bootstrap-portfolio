@@ -1,4 +1,3 @@
-/* Styles affecting all content */
 :root {
   /* declaring colour variables */
   --orange: rgb(250, 183, 0);
@@ -10,10 +9,14 @@
   --greenOpaque: rgba(43, 120, 108, 0.85);
 }
 
+
+
 /* nav */
 #Skills, #workGrid, #About {
   scroll-margin-top: 50px;
 }
+
+
 
 /* hero jumbotron */
 #heroImage {
@@ -23,6 +26,7 @@
 #heroText {
   border: 2px solid var(--orange);
 }
+
 
 
 /* Skills */
@@ -40,6 +44,7 @@
 }
 
 
+
 /*Work */
 #workGrid {
   background-color: var(--dark);
@@ -51,6 +56,7 @@
   max-height: 300px;
   opacity: 0.7;
 }
+
 
 
 /*About Me*/
