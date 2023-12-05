@@ -32,6 +32,9 @@
 #html, #css, #bootstrapIcon, #jsIcon {
   width: 40%;
 }
+.skillCardButton {
+  box-shadow: 0;
+}
 .skillCardButton:hover {
   box-shadow: 0px 10px 20px 5px var(--greenOpaque);
 }
@@ -54,6 +57,9 @@
 #profileImage2 {
   width: 60%;
 }
+#CV {
+    box-shadow: 0;
+  }
 #CV:hover {
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
