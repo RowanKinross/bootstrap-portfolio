@@ -9,10 +9,10 @@
   --dark: #004445;
   --greenOpaque: rgba(43, 120, 108, 0.85);
 }
-*  {
-      /*just for visualisation whilst developing:
-      border: 1px solid plum;*/
+* a{
+  
 }
+
 /* nav */
 #Skills, #workGrid, #About {
   scroll-margin-top: 50px;
@@ -36,10 +36,7 @@
   width: 40%;
 }
 
-a {
-  color: var(--orange);
-  text-decoration: none;
-}
+
 
 /*work Grid */
 #workGrid {
@@ -53,16 +50,21 @@ a {
   opacity: 0.7;
 }
 
+
 /*Contact me*/
 #profileImage2 {
   width: 60%;
 }
 .contactIcon {
-  width: 30%;
+ max-width: 30px;
 }
 #contactItem1, #contactItem2, #contactItem3,#contactItem4 {
   border: 0;
 }
 h6 {
   font-size: xx-small;
+}
+a {
+  color: var(--orange);
+  text-decoration: none;
 }
